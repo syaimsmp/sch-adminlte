@@ -1,0 +1,29 @@
+{
+    "name": "syaim/dynamic_menu",
+    "description": "A simple package library to create dynamic menus which read from database table",
+    "type": "library",
+    "require": {
+        "spatie/laravel-permission": "v5.x-dev",
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Syaim\\DynamicMenu\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "syaimsmp",
+            "email": "syaimsmp@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Syaim\\DynamicMenu\\DynamicMenuServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
